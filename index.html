@@ -8,114 +8,168 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top bg-transparent">
-        <a class="navbar-brand text-primary" href="#">Logo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+        <a class="navbar-brand text-dark" href="#">CoderSchool</a>
+        <button type="button" aria-expanded="false" class="navbar-toggler" data-toggle="collapse"
+            aria-label="Toggle navigation" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link text-dark" href="./team.html">Team</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item">EN</li>
+                <li class="nav-item">|</li>
+                <li class="nav-item">VI</li>
+            </ul>
         </div>
     </nav>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
+    <section>
+        <div class="container">
+            <img src="https://cs-pricing-page.netlify.app/img/logo.jpeg" alt="CoderSchool logo" />
+            <h1 class="text-center">Courses Starting September 2019</h1>
+            <p class="text-center">
+                Designed to help talented individuals meet and learn new technologies fast.
+                Meet 5 times a week for full stack web development training.
+            </p>
+            <p class="typewrite red" data-period="2000" data-type='[ 
+                  "Ready to change your life?", 
+                  "What are you waiting for?", 
+                  "Top-Rated Programming Courses Starting September 2019",
+                  "Join CoderSchool Today!"
+                  ]'></p>
+        </div>
+    </section>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROEnHhL6Y0pPKvt52okBT7mkqE2vrE0sey7g&usqp=CAU"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <section>
+        <div class="container">
+            <h1 class="text-center red">Curriculum designed to get you hired</h1>
+            <p class="text-center">
+                Originally developed in Silicon Valley, our teaching materials bring a
+                wealth of experience in coding education. We focus on real-world projects so
+                you can build a strong portfolio of real apps that simulate the types of
+                challenges you will meet in your professional career.
+            </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="https://cs-pricing-page.netlify.app/img/card1.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Full Stack Web Development</h5>
+                            <p class="card-text">HTML/CSS, Javascript, React, Node.JS</p>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary red">Learn More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROEnHhL6Y0pPKvt52okBT7mkqE2vrE0sey7g&usqp=CAU"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="https://cs-pricing-page.netlify.app/img/card2.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">AI/ML Data Science</h5>
+                            <p class="card-text">Python, SQL, Machine Learning, Deep Learning, NLP, GCP, End-to-end
+                                Machine
+                                Learning</p>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary red">Learn More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROEnHhL6Y0pPKvt52okBT7mkqE2vrE0sey7g&usqp=CAU"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROEnHhL6Y0pPKvt52okBT7mkqE2vrE0sey7g&usqp=CAU"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="https://cs-pricing-page.netlify.app/img/card3.png"
+                            alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile App Development</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <div class="text-right">
+                                <a href="#" class="btn btn-primary red">Learn More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="third">
+        <h1><i class="fas fa-history"></i> History</h1>
+        <blockquote class="blockquote text-center">
+            <p>
+                Over the past 5 years we've trained over 800 developers. <br />Our alumni
+                include engineers currently working at Grab, Facebook, Google, & Netflix
+            </p>
+        </blockquote>
+    </section>
+
+    <section id="fourth">
+        <div class="container">
+            <h1 class="text-center red">Learn more</h1>
+            <p class="text-center">
+                We have guidance counselors available to support you in your learning
+                journey. Enter your information to schedule a consultation
+            </p>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="fname">First Name</label>
+                        <input type="text" class="form-control" id="fname" placeholder="John" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="lname">Last Name</label>
+                        <input type="text" class="form-control" id="lname" placeholder="Doe" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" />
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="password">Phone</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" />
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" />
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-primary btn-block">Learn more</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        Built with ️❤️ by <a href="https://github.com/thdung3/bootstrap">Dung DANG</a>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -126,6 +180,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

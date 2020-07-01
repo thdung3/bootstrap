@@ -1,6 +1,67 @@
+section {
+    display: flex;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    align-items: center;
+    flex-direction: column;
+}
+section .typewrite {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+section img {
+    display:flex;
+    margin: 0 auto;
+}
+section:nth-child(odd){
+    background-color: #e9ebee;
+}
+footer {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    margin-left: 5px;
+}
 .navbar-nav > .nav-item {
     margin-left: 15px;
 }
-.navbar-hide{
-    background-color: rgba(0, 0, 0, 0.2);
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+:root {
+    --red: #cd4541;
+}
+  
+.red {
+    color: var(--red);
+}
+
+.btn-primary {
+    border: 0px;
+    color: white;
+    background-color: var(--red);
+}
+
+.card {
+    margin-bottom: 25px;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+}
+
+#third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cs-pricing-page.netlify.app/img/banner.jpg);
+    padding: 20%;
+}
+
+#fourth > .container > p:nth-last-of-type(1) {
+    font-size: 25px;
+    margin-bottom: 100px;
 }
