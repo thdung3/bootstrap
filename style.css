@@ -1,0 +1,6 @@
+.navbar-nav > .nav-item {
+    margin-left: 15px;
+}
+.navbar-hide{
+    background-color: rgba(0, 0, 0, 0.2);
+}
