@@ -24,7 +24,9 @@ footer{
     text-align: center;
     font-size: 14px;
 }
-
+/* .container{
+    border: 1px solid red;
+} */
 :root {
     --red: #cd4541;
 }
